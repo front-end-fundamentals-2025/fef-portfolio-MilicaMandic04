@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/contact.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,7 +13,7 @@
     />
   </head>
   <body>
-    <header>
+    <header class="header">
       <p>Milica Mandic</p>
       <!--Insert logo here-->
       <nav>
@@ -27,35 +27,54 @@
     </header>
     <main>
       <h1>Let's create <em>something</em> great!</h1>
-      <p>Ask me anything or just say hi :)</p>
+      <!--following 25 lines of code were inspired by: https://www.w3schools.com/howto/howto_css_contact_form.asp-->
+      <form action="action_page.php">
+        <label for="firstname">First Name</label>
+        <input
+          type="text"
+          name="firstname"
+          placeholder="Input your first name here"
+        />
 
-      <p class="paragraph1">Name</p>
-      <p class="paragraph2">Example Name</p>
-      <p class="paragraph1">Email</p>
-      <p class="paragraph2">example@gmail.com</p>
-      <p class="paragraph1">Message</p>
-      <p class="paragraph2">Hello there! How can i help you today?</p>
-      <img
-        class="icon"
-        href="#"
-        src="img/facebook.png"
-        alt="facebook icon with a link to the page"
-      />
-      <img
-        class="icon"
-        href="#"
-        src="img/instagram.png"
-        alt="instagram icon with a link to the page"
-      />
-      <img
-        class="icon"
-        href="#"
-        src="img/linkedin.png"
-        alt="linkedin icon with a link to the page"
-      />
+        <label for="lastname">Last Name</label>
+        <input
+          type="text"
+          name="lastname"
+          placeholder="Input your last name here"
+        />
+
+        <label for="subject">Subject</label>
+        <textarea
+          name="subject"
+          placeholder="Write your message here"
+        ></textarea>
+
+        <input type="submit" value="Submit" />
+      </form>
+      <section id="icons">
+        <img
+          class="icon"
+          href="#"
+          src="img/facebook.png"
+          alt="facebook icon with a link to the page"
+        />
+        <img
+          class="icon"
+          href="#"
+          src="img/instagram.png"
+          alt="instagram icon with a link to the page"
+        />
+        <img
+          class="icon"
+          href="#"
+          src="img/linkedin.png"
+          alt="linkedin icon with a link to the page"
+        />
+      </section>
     </main>
     <footer>
       <p>© Milica Mandic portfolio 2025</p>
     </footer>
   </body>
 </html>
+
