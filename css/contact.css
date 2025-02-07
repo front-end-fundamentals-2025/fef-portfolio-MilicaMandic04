@@ -1,0 +1,56 @@
+/*NAVIGATION*/
+header {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  justify-content: space-between; /*positioned */
+}
+.header p {
+  font-family: "Average Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+}
+ul {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+li {
+  margin-left: 4rem;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: gray;
+}
+
+/*MAIN*/
+input[type="text"],
+textarea {
+  font-family: "Average Sans", serif;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+label {
+  font-family: "Rufina", serif;
+}
+
+input[type="submit"]:hover {
+  background-color: gray;
+}
+
+.icon {
+  width: 2rem;
+  padding: 1rem;
+  margin-top: 1rem;
+}
