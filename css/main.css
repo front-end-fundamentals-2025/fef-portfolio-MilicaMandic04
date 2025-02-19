@@ -142,6 +142,40 @@ p {
     font-size: 1rem;
   }
 }
+/*theme change*/
+
+.dark-mode {
+  background-color: #121212; /* Dark background */
+  color: #f5f5dc;
+}
+
+.dark-mode a,
+.dark-mode p,
+.dark-mode h1,
+.dark-mode h3,
+.dark-mode li,
+.dark-mode figcaption {
+  color: #f5f5dc;
+}
+
+/* Button position */
+#theme-change {
+  position: absolute;
+  top: 90vh;
+  left: 170vh;
+  background: #4e342e;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  z-index: 1000;
+}
+
+#theme-change:hover {
+  background: #6d4c41;
+}
 
 /*CATEGORY*/
 h3 {
